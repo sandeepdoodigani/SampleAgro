@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16sp"
+    android:layout_marginRight="16sp"
+    android:layout_marginLeft="16sp"
+    android:layout_marginBottom="16sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crop Type : "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:padding="3dip"
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:gravity="right"
+                    android:textColor="#FFB74D"
+                    android:textSize="11dp"
+                    android:id="@+id/spinner1"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10sp"
+                >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crop Age   :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:padding="3dip"
+                    />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:gravity="right"
+                    android:textColor="#FFB74D"
+                    android:textSize="11dp"
+                    android:id="@+id/spinner2"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10sp"
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soil Type   :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:padding="3dip"
+                    />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:gravity="right"
+                    android:textColor="#FFB74D"
+                    android:textSize="11dp"
+                    android:id="@+id/spinner3"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10sp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Season      :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+
+                    android:padding="3dip"
+                    />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:gravity="right"
+                    android:textColor="#FFB74D"
+                    android:textSize="11dp"
+                    android:id="@+id/spinner4"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/getSuggestion"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:textColor="#ffffff"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:text="Get Suggestion" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suggestion"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:id="@+id/suggestion"
+            android:padding="10dp"
+            android:background="@drawable/boxshape"
+            android:layout_width="match_parent"
+            android:layout_height="140sp"
+            android:gravity="top"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

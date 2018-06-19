@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Soil_Management"
+            android:icon="@drawable/soil"
+            android:title="Soil Management" />
+        <item
+            android:id="@+id/Local_Weather_Map"
+            android:icon="@drawable/location_map"
+            android:title="Local Weather Map" />
+        <item
+            android:id="@+id/Submit_a_Sample"
+            android:icon="@drawable/sample"
+            android:title="Submit a Sample" />
+
+    </group>
+
+    <item android:title="Suggestions">
+        <menu>
+            <item
+                android:id="@+id/Soil_Based"
+                android:icon="@drawable/soil"
+                android:title="Soil Based" />
+            <item
+                android:id="@+id/Weather_Based"
+                android:icon="@drawable/weather"
+                android:title="Weather Based" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/signout"
+                android:title="Signout" />
+        </menu>
+    </item>
+
+</menu>

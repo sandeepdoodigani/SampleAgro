@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/ic_home_black_24dp"
+    >
+
+
+</item>
+    <item android:id="@+id/submitSample"
+        android:icon="@drawable/sample"
+
+        android:title="SubmitSample">
+
+
+    </item>
+
+    <item android:id="@+id/weather"
+        android:icon="@drawable/weather"
+
+        android:title="Weather">
+
+
+    </item>
+    <item android:id="@+id/reserved"
+        android:icon="@drawable/ic_bluetooth_audio_black_24dp"
+        android:title="Reserved">
+
+
+    </item>
+</menu>
